@@ -1,0 +1,44 @@
+footer {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #232323;
+    position: static;
+    bottom: 0;
+}
+
+#infos {
+    text-align: center;
+    color: white;
+    font-family: var(--Sequel-Sans-Roman-Disp);
+    color: white;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    footer {
+        position: fixed;
+        height: 3vh;
+    }
+
+    #infos {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 767px) { 
+
+    footer {
+        position: fixed;
+        height: 2vh;
+    }
+
+    #infos {
+        font-size: 5px;
+    }
+
+}

@@ -1,0 +1,51 @@
+#caixa_servicos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#card_servicos {
+    width: 400px;
+    height: 150px;
+    padding: 30px;
+    border-radius: 20px;
+    font-family: var(--Sequel-Sans-Roman-Disp);
+    background-color: var(--color-gray);
+    transition: transform 0.3s ease;
+    margin-bottom: 10px;
+}
+
+#card_servicos:hover {
+    cursor: pointer;
+    background-color: var(--color-gray1);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #card_servicos {
+        width: 250px;
+        height: 200px;
+        padding: 30px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    #card_servicos {
+        width: 100px;
+        height: 170px;
+        padding: 30px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+    #card_textos h3 {
+        font-size: 17px;
+    }
+
+    #card_textos p {
+        font-size: 8px;
+    }
+}

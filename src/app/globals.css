@@ -1,0 +1,1675 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #171717;
+  --color-black1: #1e1e1e;
+  --color-gray: #E7E7E7;
+  --color-gray1: #D9D9D9;
+  --color: #01A1FD;
+  --color1: #1F3AD2;
+  --color2: #0e7dbe;
+}
+
+html,
+body {
+  margin: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--color-black);
+  background: var(--color-white);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#imagem_fundo {
+  width: 100%;
+  height: auto;
+}
+
+#slogan {
+  width: 580px;
+  height: auto;
+  display: block;
+  position: absolute;
+  margin-top: 10%;
+  top: 0%;
+  right: 5%;
+  align-items: center; 
+}
+
+#titulo {
+  font-size: 22px;
+  white-space: nowrap;
+  display: flex;
+  color: var(--color1);
+  font-family: var(--Sequel-Sans-Semi-Bold);
+}
+
+#titulo_destaque {
+  margin-left: 10px;
+  color: var(--color-white);
+}
+
+#slogan p {
+  color: var(--color-white);
+  line-height: 25px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: var(--Sequel-Sans-Roman-Disp);
+}
+
+#botoes {
+  color: color;
+  display: flex;
+  align-items: center; 
+  gap: 25px;
+}
+
+#botoes p {
+  width: 120px;
+  text-align: center;
+  text-wrap: 1px;
+  font-size: 15px;
+  background-color: var(--color-black1);
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+
+#botoes p:hover {
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+#seta {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+#titulo_servicos {
+  color: var(--color-black1);
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  font-family: var(--Sequel-Sans-Semi-Bold);
+}
+
+#div_servicos {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25vh;
+  justify-content: center; 
+}
+
+.coluna {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.p_coluna {
+  width: 330px;
+  height: auto;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 25px;
+  color: var(--color-black1);
+  font-family: var(--Sequel-Sans-Roman-Disp);
+  background-color: #E7E7E7;
+}
+
+#login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#fundologin {
+  width: 100%;
+}
+
+#caixa_login {
+  width: 550px;
+  height: 600px;
+  border-radius: 50px;
+  position: absolute;
+  background-color: var(--color-gray1);
+  font-family: var(--Sequel-Sans-Roman-Disp);
+}
+
+#titulo_login {
+  text-align: center;
+  padding: 55px 50px 5px 50px;
+  font-family: var(--Sequel-Sans-Semi-Bold);
+}
+
+#titulo_login h1 {
+  color: var(--color-black1);
+  font-size: 40px;
+}
+
+#campos {
+  justify-content: center;
+  padding: 20px 50px 10px 50px;
+}
+
+.titulo_campos {
+  color: var(--color-black1);
+  font-size: 13px;
+}
+
+#campos input[name="email"],
+#campos input[type="password"],
+textarea {
+  width: 430px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  border: transparent;
+  padding: 20px 0px 20px 20px;
+  background-color: var(--color-white);
+}
+
+.links_login p {
+  text-align: end;
+  font-size: 11px;
+  color: var(--color);
+}
+
+.links_login p:hover {
+  color: var(--color2);
+}
+
+#form_login button {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  color: var(--color-white);
+  font-family: var(--Sequel-Sans-Roman-Disp);
+  border: transparent;
+  margin-top: 50px;
+  padding: 15px 0px 15px 0px;
+  background-color: var(--color);
+}
+
+#form_login button:hover{
+  cursor: pointer;
+  background-color: var(--color2);
+}
+
+#recuperacao {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--Sequel-Sans-Roman-Disp);
+}
+
+#FundoRecuperacao {
+  width: 100%;
+}
+
+#caixa_recuperacao {
+  width: 550px;
+  height: 600px;
+  border-radius: 50px;
+  position: absolute;
+  background-color: var(--color-gray1);
+}
+
+#titulo_recuperacao {
+  text-align: center;
+  padding: 120px 0px 20px 0px;
+  font-family: var(--Sequel-Sans-Semi-Bold);
+}
+
+#titulo_recuperacao h1 {
+  color: var(--color-black1);
+  font-size: 35px;
+}
+
+#campos_recuperacao {
+  justify-content: center;
+  padding: 20px 50px;
+}
+
+#email_recuperacao {
+  color: var(--color-black1);
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+#campos_recuperacao input[type="email"],
+textarea {
+  width: 430px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  border: transparent;
+  padding: 20px 0px 20px 20px;
+  background-color: var(--color-white);
+}
+
+#botao_recuperar {
+  width: 450px;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 50px;
+  color: var(--color-white);
+  padding: 7px 0px;
+  background-color: var(--color);
+}
+
+#cadastro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#caixa_cadastro {
+  width: 950px;
+  height: 900px;
+  border-radius: 50px;
+  position: absolute;
+  background-color: var(--color-gray1);
+  font-family: var(--Sequel-Sans-Roman-Disp);
+}
+
+#titulo_usuario {
+  text-align: center;
+  padding: 50px 0px 30px 0px;
+}
+
+#titulo_usuario h1 {
+  color: var(--color-black1);
+  font-size: 40px;
+  font-family: var(--Sequel-Sans-Semi-Bold);
+}
+
+#form_usuario {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  padding: 0px 50px;
+}
+
+.campos_usuario {
+  color: var(--color-black1);
+  font-size: 13px;
+}
+
+#form_usuario input[name="nome"],
+#form_usuario input[name="email"],
+#form_usuario input[name="tel"],
+#form_usuario input[name="cpf"],
+textarea {
+  width: 160px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  border: transparent;
+  padding: 20px 20px 20px 20px;
+  background-color: var(--color-white);
+}
+
+#form_usuario input[name="bairro"],
+#form_usuario input[name="cidade"],
+textarea {
+  width: 230px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  border: transparent;
+  padding: 20px 20px 20px 20px;
+  background-color: var(--color-white);
+}
+
+#form_usuario input[name="cep"],
+textarea {
+  width: 150px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  border: transparent;
+  padding: 20px 20px 20px 20px;
+  background-color: var(--color-white);
+}
+
+#form_usuario input[name="logradouro"],
+textarea {
+  width: 455px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  border: transparent;
+  padding: 20px 20px 20px 20px;
+  background-color: var(--color-white);
+}
+
+#form_usuario input[name="numero"],
+textarea {
+  width: 85px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  border: transparent;
+  padding: 20px 20px 20px 20px;
+  background-color: var(--color-white);
+}
+
+#form_usuario select[name="estado"] {
+  width: 270px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  border: transparent;
+  padding: 20px 20px 20px 20px;
+  background-color: var(--color-white);
+}
+
+#form_usuario input[name="password"],
+#form_usuario input[name="confirm_password"],
+textarea {
+  width: 370px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  border: transparent;
+  padding: 20px 20px 20px 20px;
+  background-color: var(--color-white);
+}
+
+#observacao {
+  display: flex;
+  flex: 100%;
+  align-items: start;
+  font-size: 10px;
+}
+
+#form_usuario button {
+  display: flex;
+  width: 410px;
+  gap: 10px;
+  border: 0;
+  padding: 18px;
+  margin-top: 50px;
+  font-size: 13px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+  background-color: var(--color-black1);
+}
+
+#form_usuario button[name="submit"] {
+  background-color: var(--color);
+}
+
+#form_usuario button:hover {
+  filter: brightness(0.8);
+}
+
+#cadastro_carro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#caixa_carro {
+  width: 950px;
+  height: 650px;
+  border-radius: 50px;
+  position: absolute;
+  background-color: var(--color-gray1);
+  font-family: var(--Sequel-Sans-Roman-Disp);
+}
+
+#titulo_carro {
+  text-align: center;
+  padding: 50px 0px 30px 0px;
+}
+
+#titulo_carro h1 {
+  color: var(--color-black1);
+  font-size: 40px;
+  font-family: var(--Sequel-Sans-Semi-Bold);
+}
+
+#form_carro {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  padding: 0px 50px;
+}
+
+.campos_carro {
+  color: var(--color-black1);
+  font-size: 13px;
+}
+
+#form_carro input[name="modelo"],
+#form_carro input[name="marca"],
+#form_carro input[name="placa"],
+#form_carro input[name="ano"],
+textarea {
+  width: 160px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  border: transparent;
+  padding: 20px 20px 20px 20px;
+  background-color: var(--color-white);
+}
+
+#form_carro input[name="ultima_vistoria"],
+#form_carro input[name="atual"],
+#form_carro input[name="data"],
+textarea {
+  width: 230px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  border: transparent;
+  padding: 20px 20px 20px 20px;
+  background-color: var(--color-white);
+}
+
+#observacao_carro {
+  display: flex;
+  flex: 100%;
+  align-items: start;
+  font-size: 10px;
+}
+
+#form_carro button {
+  display: flex;
+  width: 410px;
+  gap: 10px;
+  border: 0;
+  padding: 18px;
+  margin-top: 50px;
+  font-size: 13px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+  background-color: var(--color-black1);
+}
+
+#form_carro button[name="submit"] {
+  background-color: var(--color);
+}
+
+#form_carro button:hover {
+  filter: brightness(0.8);
+}
+
+#planos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#caixa_planos {
+  width: 950px;
+  height: 650px;
+  border-radius: 50px;
+  position: absolute;
+  font-family: var(--Sequel-Sans-Roman-Disp);
+}
+
+#caixa_planos h1 {
+  text-align: center;
+  padding: 50px 0px 30px 0px;
+  color: var(--color-white);
+  font-size: 35px;
+  font-family: var(--Sequel-Sans-Semi-Bold);
+}
+
+#card_planos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#fundo_portal {
+  width: 100%;
+  height: auto;
+}
+
+#portalcliente {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#titulo_portal {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: center;
+  top: 25%;
+  color: var(--color-white);
+}
+
+#titulo_portal h1 {
+  font-size: 50px;
+  padding: 0px 50px;
+  font-family: var(--Sequel-Sans-Semi-Bold);
+}
+
+#titulo_portal p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: var(--Sequel-Sans-Roman-Disp);
+}
+
+#servicos_titulo {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  color: var(--color-black1);
+  font-family: var(--Sequel-Sans-Semi-Bold);
+}
+
+#servicos_caixa {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  margin-bottom: 150px;
+  gap: 10px;
+  justify-content: center;
+}
+
+#duvidas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-black1);
+  font-family: var(--Sequel-Sans-Semi-Bold);
+}
+
+#caixa_duvidas {
+  width: 950px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 50px;
+  position: absolute;
+  background-color: var(--color-gray);
+}
+
+#caixa_duvidas h1 {
+  padding-top: 30px;
+}
+
+#integrantes {
+  width: 100%;
+  display: flex;
+}
+
+#fundo_integrantes {
+  width: 100%;
+  height: 140vh;
+}
+
+#caixa_integrantes {
+  width: 100%;
+  display: flex;
+  padding: 130px 0px;
+  position: absolute;
+  z-index: 0;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-black1);
+  font-family: var(--Sequel-Sans-Semi-Bold);
+}
+
+#article_integrantes {
+  border-radius: 50px;
+  padding: 100px;
+  background-color: var(--color-gray1);
+}
+
+#article_integrantes h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#perfil {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#perfil img {
+  height: 1500px;
+}
+
+#caixa_perfil {
+  width: 950px;
+  height: 1200px;
+  margin-top: 100px;
+  border-radius: 50px;
+  position: absolute;
+  background-color: var(--color-gray1);
+  font-family: var(--Sequel-Sans-Roman-Disp);
+}
+
+#caixa_perfil h1 {
+  color: var(--color-black1);
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 40px;
+  font-family: var(--Sequel-Sans-Semi-Bold);
+}
+
+#dados_perfil {
+  padding: 0px 50px;
+}
+
+#dados_perfil h2 {
+  margin-bottom: 10px;
+}
+
+.dados_pessoais {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.titulo_dados {
+  font-size: 15px;
+}
+
+.dados {
+  width: 170px;
+  font-size: 10px;
+  padding: 15px 15px;
+  background-color: var(--color-white);
+}
+
+#dados_perfil button {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  color: var(--color-white);
+  font-family: var(--Sequel-Sans-Roman-Disp);
+  border: transparent;
+  margin-top: 50px;
+  padding: 15px 0px 15px 0px;
+  background-color: var(--color);
+}
+
+#editar {
+  padding: 0px 50px;
+}
+
+#editar h2 {
+  margin-bottom: 10px;
+}
+
+#dados_editar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.campos_editar p {
+  font-size: 15px;
+}
+
+.campos_editar input, select {
+  width: 170px;
+  border: transparent;
+  font-size: 10px;
+  padding: 15px 15px;
+  background-color: var(--color-white);
+}
+
+#botoes_editar {
+  display: flex;
+  gap: 10px;
+}
+
+#editar button {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  color: var(--color-white);
+  font-family: var(--Sequel-Sans-Roman-Disp);
+  border: transparent;
+  margin-top: 50px;
+  padding: 15px 0px 15px 0px;
+  background-color: var(--color);
+}
+
+#editar button:hover {
+  background-color: var(--color2);
+}
+
+#editar #cancelar_editar  {
+  background-color: var(--color-black1);
+}
+
+#editar #cancelar_editar:hover  {
+  background-color: var(--color-black);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  #slogan {
+    width: 320px;
+    margin-top: 10%;
+    right: 5%;
+  }
+
+  #slogan p {
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-size: 9px;
+    letter-spacing: 0px;
+  }
+
+  #titulo {
+    font-size: 13px;
+  }
+
+  #titulo_destaque {
+    margin-left: 6px;
+  }
+
+  #botoes {
+    gap: 10px;
+  }
+
+  #botoes p {
+    width: 100px;
+    font-size: 9px;
+    padding: 5px 5px;
+  }
+
+  #seta {
+    margin-bottom: 18vh;
+  }
+
+  #seta img {
+    width: 20px;
+  }
+
+  #titulo_servicos {
+    margin-bottom: 3vh;
+    font-size: 10px;
+  }
+
+  #div_servicos{
+    margin-bottom: 0%;
+  }
+
+  .coluna {
+    gap: 5px;
+  }
+
+  .p_coluna {
+    width: 200px;
+    border-radius: 15px;
+    padding: 10px 5px;
+    font-size: 9px;
+  }
+
+  #fundologin {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #caixa_login {
+    width: 450px;
+    height: 500px;
+    border-radius: 40px;
+  }
+
+  #titulo_login img {
+    margin-right: 120px;
+  }
+
+  #titulo_login h1 {
+    font-size: 30px;
+  }
+
+  .titulo_campos {
+    font-size: 10px;
+  }
+
+  #campos input[name="email"],
+  #campos input[type="password"],
+  textarea {
+    width: 330px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    padding: 15px 0px 15px 15px;
+  }
+
+  .links_login p {
+  font-size: 8px;
+  }
+
+  #recuperar_senha {
+    font-size: 9px;
+  }
+
+  #form_login button  {
+    width: 350px;
+    font-size: 10px;
+    margin-top: 40px;
+    padding: 15px 0px 15px 0px;
+  }
+
+  #FundoRecuperacao {
+    height: 100vh;
+  }
+  
+  #caixa_cadastro {
+    width: 550px;
+    height: 850px;
+  }
+
+  #titulo_usuario h1 {
+    font-size: 40px;
+  }
+  
+  .campos_usuario {
+    font-size: 10px;
+  }
+
+  #form_usuario input[name="nome"],
+  #form_usuario input[name="email"],
+  textarea {
+    width: 190px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    padding: 15px;
+  }
+  
+  #form_usuario input[name="tel"],
+  #form_usuario input[name="cpf"],
+  textarea {
+    width: 190px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    padding: 15px;
+  }
+  
+  #form_usuario input[name="cep"],
+  textarea {
+    width: 50px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    padding: 15px;
+  }
+  
+  #form_usuario input[name="logradouro"],
+  textarea {
+    width: 205px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    padding: 15px;
+  }
+  
+  #form_usuario input[name="numero"],
+  textarea {
+    width: 85px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    padding: 15px;
+  }
+
+  #form_usuario input[name="bairro"],
+  #form_usuario input[name="cidade"],
+  textarea {
+    width: 95px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    padding: 15px;
+  }
+  
+  #form_usuario select[name="estado"] {
+    width: 180px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    padding: 15px;
+  }
+  
+  #form_usuario input[name="password"],
+  #form_usuario input[name="confirm_password"],
+  textarea {
+    width: 190px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    padding: 15px;
+  }
+  
+  #form_usuario button {
+    width: 220px;
+    gap: 10px;
+    border: 0;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 10px;
+  }
+  
+  #caixa_carro {
+    width: 550px;
+    height: 750px;
+  }
+  
+  #titulo_carro h1 {
+    font-size: 40px;
+  }
+  
+  .campos_carro {
+    font-size: 10px;
+  }
+  
+  #form_carro input[name="modelo"],
+  #form_carro input[name="marca"],
+  textarea {
+    width: 190px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    padding: 15px;
+  }
+
+  #form_carro input[name="placa"],
+  #form_carro input[name="ano"],
+  textarea {
+    width: 190px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    padding: 15px;
+  }
+  
+  #form_carro input[name="ultima_vistoria"],
+  #form_carro input[name="atual"],
+  textarea {
+    width: 130px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    padding: 15px;
+  }
+
+  #form_carro input[name="data"],
+  textarea {
+    width: 80px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    padding: 14px;
+  }
+  
+  #form_carro button {
+    width: 220px;
+    gap: 10px;
+    border: 0;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 10px;
+  }
+
+  #caixa_planos {
+    width: 550px;
+    height: 750px;
+  }
+  
+  #caixa_planos h1 {
+    font-size: 30px;
+  }
+  
+  #titulo_portal h1 {
+    font-size: 35px;
+  }
+  
+  #titulo_portal p {
+    width: 550px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  #servicos_titulo {
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 5px;
+    justify-content: center;
+    color: var(--color-black1);
+    font-family: var(--Sequel-Sans-Semi-Bold);
+  }
+  
+  #servicos_caixa {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 150px;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  #caixa_duvidas {
+  width: 600px;
+  height: 650px;
+  border-radius: 40px;
+  }
+
+  #caixa_duvidas h1 {
+    padding-top: 100px;
+  }
+
+  #fundo_integrantes {
+  width: 100%;
+  height: 100vh;
+}
+
+  #caixa_integrantes {
+    padding: 200px 0px;
+  }
+
+  #article_integrantes {
+    padding: 50px;
+  }
+
+  #article_integrantes h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  #perfil img {
+    height: 1600px;
+  }
+
+  #caixa_perfil {
+    width: 650px;
+    height: 1350px;
+    margin-top: 20px;
+    border-radius: 30px;
+  }
+
+  #dados_perfil h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #dados_perfil button {
+    width: 175px;
+  }
+
+  .dados {
+    width: 145px;
+    font-size: 10px;
+    margin-bottom: 0;
+    padding: 15px 15px;
+    background-color: var(--color-white);
+  }
+
+  #editar {
+    padding: 0px 50px;
+  }
+
+  #editar h2 {
+    margin-bottom: 10px;
+  }
+
+  #dados_editar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+
+  .campos_editar p {
+    font-size: 13px;
+  }
+
+  .campos_editar input {
+    width: 145px;
+    border: transparent;
+    font-size: 10px;
+    padding: 15px 15px;
+    background-color: var(--color-white);
+  }
+
+  .campos_editar select {
+    width: 173px;
+  }
+
+  #botoes_editar {
+    display: flex;
+    gap: 10px;
+  }
+
+  #editar button {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 767px){ 
+
+  #slogan {
+    width: 150px;
+    margin-top: 10%;
+    right: 4%;
+  }
+
+  #slogan p {
+    margin-bottom: 10px;
+    line-height: 8px;
+    font-size: 4px;
+    letter-spacing: 0px;
+  }
+
+  #titulo {
+    font-size: 6px;
+  }
+
+  #titulo_destaque {
+    margin-left: 5px;
+  }
+
+  #imagem_fundo {
+    width: 100vw;
+  }
+
+  #botoes {
+    gap: 5px;
+  }
+
+  #botoes p {
+    width: 40px;
+    padding: 4px 10px;
+  }
+
+  #seta {
+    margin-bottom: 120px;
+  }
+
+  #seta img {
+    width: 10px;
+  }
+
+  #titulo_servicos {
+    margin-bottom: 15px;
+    font-size: 6px;
+  }
+
+  #div_servicos {
+    margin-bottom: 35vh;
+  }
+
+  .coluna {
+    margin-bottom: 5px;
+    gap: 4px;
+  }
+
+  .p_coluna {
+    width: 100px;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 4px;
+    border-radius: 10px;
+    color: var(--color-black1);
+    background-color: var(--color-gray);
+  }
+
+  #fundologin {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #caixa_login {
+    width: 300px;
+    height: 380px;
+    border-radius: 20px;
+  }
+
+  #titulo_login {
+    padding: 30px 20px 10px 20px;
+  }
+
+  #titulo_login img {
+    width: 15px;
+    height: 15px;
+    margin-right: 90px;
+  }
+
+  #titulo_login h1 {
+    font-size: 20px;
+  }
+
+  #campos {
+    padding: 20px 30px;
+  }
+
+  .titulo_campos {
+    font-size: 8px;
+  }
+
+  #campos input[name="email"],
+  #campos input[type="password"],
+  textarea {
+    width: 224px;
+    margin-bottom: 8px;
+    font-size: 6px;
+    padding: 12px 0px 12px 15px;
+  }
+
+  .links_login p {
+    font-size: 5px;
+  }
+
+  #recuperar_senha {
+    font-size: 5px;
+  }
+
+  #form_login button {
+    width: 240px;
+    font-size: 8px;
+    margin-top: 30px;
+    padding: 10px 0px 10px 0px;
+  }
+
+  #FundoRecuperacao {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #caixa_recuperacao {
+    width: 300px;
+    height: 350px;
+    border-radius: 25px;
+  }
+
+  #titulo_recuperacao {
+    padding: 60px 50px 20px 50px;
+  }
+
+  #titulo_recuperacao img {
+    width: 15px;
+    height: 15px;
+    margin-right: 30px;
+  }
+
+  #titulo_recuperacao h1 {
+    font-size: 16px;
+  }
+
+  #campos_recuperacao {
+    padding: 20px 40px;
+  }
+
+  #email_recuperacao {
+    font-size: 8px;
+  }
+
+  #campos_recuperacao input[type="email"],
+  textarea {
+    width: 200px;
+    margin-bottom: 15px;
+    font-size: 8px;
+    padding: 10px 0px 10px 20px;
+  }
+
+  #botao_recuperar {
+    width: 220px;
+    text-align: center;
+    font-size: 8px;
+    margin-top: 20px;
+    color: var(--color-white);
+    padding: 4px 0px 4px 0px;
+    background-color: var(--color);
+  }
+
+  #caixa_cadastro {
+    width: 300px;
+    height: 600px;
+    border-radius: 25px;
+  }
+
+  #titulo_usuario h1 {
+    font-size: 25px;
+  }
+
+  #titulo_usuario p {
+    font-size: 10px;
+  }
+
+  #form_usuario {
+    column-gap: 5px;
+    padding: 0px 30px;
+  }
+  
+  .campos_usuario {
+    font-size: 7px;
+  }
+
+  #form_usuario input[name="nome"],
+  #form_usuario input[name="email"],
+  textarea {
+    width: 97px;
+    margin-bottom: 15px;
+    font-size: 6px;
+    padding: 10px;
+  }
+  
+  #form_usuario input[name="tel"],
+  #form_usuario input[name="cpf"],
+  textarea {
+    width: 97px;
+    margin-bottom: 15px;
+    font-size: 6px;
+    padding: 10px;
+  }
+  
+  #form_usuario input[name="cep"],
+  textarea {
+    width: 40px;
+    margin-bottom: 15px;
+    font-size: 6px;
+    padding: 10px;
+  }
+  
+  #form_usuario input[name="logradouro"],
+  textarea {
+    width: 90px;
+    margin-bottom: 15px;
+    font-size: 6px;
+    padding: 10px;
+  }
+  
+  #form_usuario input[name="numero"],
+  textarea {
+    width: 40px;
+    margin-bottom: 15px;
+    font-size: 6px;
+    padding: 10px;
+  }
+
+  #form_usuario input[name="bairro"],
+  #form_usuario input[name="cidade"],
+  textarea {
+    width: 50px;
+    margin-bottom: 15px;
+    font-size: 6px;
+    padding: 10px;
+  }
+  
+  #form_usuario select[name="estado"] {
+    width: 88px;
+    margin-bottom: 15px;
+    font-size: 6px;
+    padding: 10px;
+  }
+  
+  #form_usuario input[name="password"],
+  #form_usuario input[name="confirm_password"],
+  textarea {
+    width: 97px;
+    margin-bottom: 15px;
+    font-size: 6px;
+    padding: 10px;
+  }
+  
+  #observacao {
+    margin-top: 5px;
+    font-size: 7px;
+  }
+  
+  #form_usuario button {
+    width: 115px;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 8px;
+  }
+
+  #caixa_carro {
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+  }
+  
+  #titulo_carro h1 {
+    font-size: 25px;
+  }
+
+  #titulo_carro p {
+    font-size: 10px;
+  }
+
+  #form_carro {
+    column-gap: 5px;
+    padding: 0px 30px;
+  }
+  
+  .campos_carro {
+    font-size: 7px;
+  }
+  
+  #form_carro input[name="modelo"],
+  #form_carro input[name="marca"],
+  #form_carro input[name="placa"],
+  #form_carro input[name="ano"],
+  textarea {
+    width: 35px;
+    margin-bottom: 15px;
+    font-size: 6px;
+    padding: 10px;
+  }
+  
+  #form_carro input[name="ultima_vistoria"],
+  #form_carro input[name="atual"],
+  textarea {
+    width: 95px;
+    margin-bottom: 15px;
+    font-size: 6px;
+    padding: 10px;
+  }
+
+  #observacao_carro {
+    font-size: 6px;
+  }  
+
+  #form_carro input[name="data"],
+  textarea {
+    width: 215px;
+    margin-bottom: 15px;
+    font-size: 6px;
+    padding: 9px;
+  }
+  
+  #form_carro button {
+    width: 115px;
+    gap: 10px;
+    padding: 11px;
+    margin-top: 25px;
+    font-size: 7px;
+  }
+
+  #caixa_planos {
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    padding: 20px 0px 10px 0px;
+  }
+  
+  #caixa_planos h1 {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  #portalcliente img {
+    height: 500px;
+  }
+
+  #titulo_portal h1 {
+    font-size: 27px;
+  }
+  
+  #titulo_portal p {
+    width: 550px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 9px;
+  }
+  
+  #servicos_titulo {
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  #caixa_duvidas {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  #caixa_duvidas h1 {
+    font-size: 13px;
+    padding: 25px 0px 25px 0px;
+  }
+  
+  #fundo_integrantes {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #caixa_integrantes {
+    padding: 130px 0px;
+  }
+
+  #article_integrantes {
+    width: 250px;
+    border-radius: 25px;
+    padding: 25px;
+  }
+
+  #article_integrantes h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  #perfil img {
+    height: 850px;
+  }
+
+  #caixa_perfil {
+    width: 300px;
+    height: 650px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+
+  .dados_pessoais {
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+
+  #dados_perfil {
+    padding: 0px 25px;
+  }
+
+  #caixa_perfil h1 {
+    color: var(--color-black1);
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 20px;
+    font-family: var(--Sequel-Sans-Semi-Bold);
+  }
+
+  #dados_perfil h2 {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  #dados_perfil button {
+    width: 80px;
+    margin-top: 20px;
+    font-size: 8px;
+    padding: 10px 10px;
+  }
+
+  .titulo_dados {
+    font-size: 8px;
+  }
+
+  .campos_dados h3 {
+    font-size: 8px;
+  }
+
+  .dados {
+    width: 60px;
+    font-size: 4.5px;
+    padding: 10px 10px;
+  }
+
+  #editar {
+    padding: 0px 25px;
+  }
+
+  #editar h2 {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  #dados_editar {
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+
+  .campos_editar p {
+    font-size: 6px;
+  }
+
+  .campos_editar input {
+    width: 60px;
+    font-size: 4.5px;
+    padding: 10px 10px;
+  }
+
+  .campos_editar select {
+    width: 78px;
+    font-size: 4.5px;
+    padding: 10px 10px;
+  }
+
+  #botoes_editar {
+    display: flex;
+    gap: 10px;
+  }
+
+  #editar button {
+    width: 80px;
+    font-size: 7px;
+    margin-top: 10px;
+    padding: 10px 10px;
+  }
+
+}
